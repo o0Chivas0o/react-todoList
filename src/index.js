@@ -9,4 +9,3 @@ ReactDOM.render(
   <Welcome name="frank"/>,
   document.getElementById('root')
 )
-
