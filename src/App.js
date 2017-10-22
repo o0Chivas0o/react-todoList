@@ -42,17 +42,26 @@ class App extends Component {
         <ol className="todoList">
           {todos}
         </ol>
-        {this.state.user.id ? null : <UserDialog onSignUp={this.onSignUp.bind(this)}/>}
+        {this.state.user.id ?
+          null :
+          <UserDialog
+            onSignUp={this.onSignUp.bind(this)}
+            onSignIn={this.onSignIn.bind(this)}/>}
       </div>
     )
   }
-  signOut(){//singOut是属性,不是变量.
+  signOut(){
     signOut()
     let stateCopy = JSON.parse(JSON.stringify(this.state))
     stateCopy.user = {}
     this.setState(stateCopy)
   }
   onSignUp(user){
+    let stateCopy = JSON.parse(JSON.stringify(this.state))
+    stateCopy.user = user
+    this.setState(stateCopy)
+  }
+  onSignIn(user){
     let stateCopy = JSON.parse(JSON.stringify(this.state))
     stateCopy.user = user
     this.setState(stateCopy)
