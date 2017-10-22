@@ -1,4 +1,3 @@
-
 import React, { Component } from 'react';
 import './UserDialog.css'
 import {signUp, signIn, sendPasswordResetEmail} from './leanCloud'
