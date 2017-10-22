@@ -16,7 +16,7 @@ export default class SignInForm extends Component {
         </div>
         <div className="row actions">
           <button type="submit">登录</button>
-          <a href="#" onClick={this.props.onForgotPassword}>忘记密码了？</a>
+          <a href="" onClick={this.props.onForgotPassword}>忘记密码了？</a>
         </div>
       </form>
     )
