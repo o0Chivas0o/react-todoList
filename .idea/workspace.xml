@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f52b33c-a7b4-4407-a5a7-b979155f1dd1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SignInFrom.js" afterPath="$PROJECT_DIR$/src/SignInForm.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserDialog.js" afterPath="$PROJECT_DIR$/src/UserDialog.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -277,12 +275,12 @@
       <workItem from="1508330690018" duration="3875000" />
       <workItem from="1508473695628" duration="6803000" />
       <workItem from="1508658589009" duration="11000" />
-      <workItem from="1508658614700" duration="6534000" />
+      <workItem from="1508658614700" duration="6657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20540000" />
+    <option name="totallyTimeSpent" value="20663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
