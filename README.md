@@ -1,4 +1,5 @@
-在线[预览地址](https://o0chivas0o.github.io/react-todoList/build/index.html)
+- 预览地址:https://o0chivas0o.github.io/react-todoList/build/index.html
+- [在线预览](https://o0chivas0o.github.io/react-todoList/build/index.html)
 ---
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
